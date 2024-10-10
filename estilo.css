@@ -1,0 +1,126 @@
+main{
+    width: 1366px;
+    height: 1900px;
+    margin: auto;
+    background-color: white;
+    
+}
+.imagen-arriba {
+    float: right;
+    margin-left: auto;
+    margin-right: 0;
+    max-width: 100%; 
+    height: auto;   
+}
+
+nav {
+    width: 100%;
+    background-color: #F2BF27; 
+    display: flex;
+    justify-content: space-around;
+    padding: 5px 0;
+    text-align: center;
+}
+
+nav a {
+    color: black; 
+    text-decoration: none;
+    flex: 1; 
+    padding: 10px 0;
+    text-align: center;
+    font-size: 25px;
+    transition: background-color 0.3s ease;
+    max-width: 200px;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+nav a:hover {
+    background-color: #F2B33D; 
+    border-radius: 5px;
+}
+section{
+    width: 1366px;
+    height: 1880px;
+    margin: auto;
+    border: 2px solid black;
+    
+    
+}
+h1{
+    color: #F6FAFB;
+    font-size: 80px;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+}
+h2{
+    color: #F6FAFB;
+    font-size: 40px;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+}
+section .arriba{
+    width: 1366px;
+    height: 320px;
+    background-color:#050C0D;
+    float: left;
+}
+section .izquierda{
+    width: 550px;
+    height: 1100px;
+    margin: 29px;
+    background-color: #050C0D;
+    float: left;
+}
+.izquierda .texto1{
+    width: 500px;
+    height: 900px;
+    margin: auto;
+    background-color: #F2A03D;
+    color: #F6FAFB;
+    font-size: 30px;
+}
+section .derecha{
+    width: 700px;
+    height: 1100px;
+    margin: 29px;
+    background-color: #050C0D;
+    float: left;
+}
+.imagen-derecha {
+    display: block;  /* Para hacer que actúe como un bloque */
+    margin: 0 auto;  /* Centrar horizontalmente */
+    width: 600px;    /* Mantén el ancho */
+    height: auto;    /* Mantén la proporción de la imagen */
+}
+
+.derecha .texto2{
+    width: 600px;
+    height: 500px;
+    margin: auto;
+    background-color: #F2A03D;
+    color: #F6FAFB;
+    font-size: 30px;
+
+}
+section .abajo{
+    width: 1366px;
+    height: 360px;
+    float: left;
+    background-color: #050C0D;
+}
+.abajo .texto3{
+    width: 1250px;
+    height: 220px;
+    margin: auto;
+    background-color: #F2A03D;
+    color: #F6FAFB;
+    font-size: 30px;
+
+}
+
+/* #050C0D NEGRO
+#F6FAFB BLANCO 
+#F2BF27 AMARILLO 
+#F2B33D ORO
+#F2A03D NARANJA
+*/
